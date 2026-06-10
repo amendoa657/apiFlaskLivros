@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+
+{% block head %}
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/criarLivro.css') }}">
+{% endblock %}
+
+{% block conteudo %}
+    <main>
+        <form method="post">
+            <input placeholder="ISBN">
+
+            <input placeholder="titulo">
+
+            <input placeholder="autor">
+
+            <input placeholder="genero">
+
+            <input placeholder="anoPublicacao">
+
+            <input placeholder="editora">
+
+            <input placeholder="paginas">
+
+            <input placeholder="status">
+
+            <input placeholder="localizacao">
+
+        </form>
+    </main>
+{% endblock %}

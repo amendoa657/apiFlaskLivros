@@ -1,0 +1,37 @@
+[
+    {
+        "isbn": "978-8535914849",
+        "titulo": "1984",
+        "autor": "George Orwell",
+        "genero": "Distopia",
+        "ano_publicacao": 1949,
+        "editora": "Companhia das Letras",
+        "paginas": 416,
+        "status": "disponivel",
+        "localizacao": "Estante A1, Prateleira 2"
+    },
+
+    {
+        "isbn": "978-8535914852",
+        "titulo": "1942",
+        "autor": "George Orvell",
+        "genero": "Distopialala",
+        "ano_publicacao": 1925,
+        "editora": "Companhia dos Letros",
+        "paginas": 251,
+        "status": "disponivel",
+        "localizacao": "Estante A1, Prateleira 2"
+    },
+
+    {
+        "isbn": "978-8535914852",
+        "titulo": "1942",
+        "autor": "George Orvell",
+        "genero": "Distopialala",
+        "ano_publicacao": 1925,
+        "editora": "Companhia dos Letros",
+        "paginas": 251,
+        "status": "disponivel",
+        "localizacao": "Estante A1, Prateleira 2"
+    }
+]

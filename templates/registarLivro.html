@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+
+{% block head %}
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/criarLivro.css') }}">
+{% endblock %}
+
+{% block conteudo %}
+    <main>
+        <form method="post" action="/biblioteca/registro/executar">
+            <input name="isbn" type="text" placeholder="ISBN">
+
+            <input name="titulo" type="text" placeholder="titulo">
+
+            <input name="autor" type="text" placeholder="autor">
+
+            <input name="genero" type="text" placeholder="genero">
+
+            <input name="anoPublicacao" type="number" placeholder="anoPublicacao">
+
+            <input name="editora" type="text" placeholder="editora">
+
+            <input name="paginas" type="number" placeholder="paginas">
+
+            <input name="status" type="text" placeholder="status">
+
+            <input name="localizacao" type="text" placeholder="localizacao">
+
+            <input class="inputEnviar" type="submit" value="Enviar">
+
+        </form>
+    </main>
+{% endblock %}

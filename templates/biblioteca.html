@@ -1,0 +1,59 @@
+{% extends "base.html" %}
+
+{% block head %}
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/mostrarBiblioteca.css') }}">
+{% endblock %}
+
+{% block conteudo %}
+    <main>
+        {% if resultado %}
+            <div class="retornoSucesso">
+                <h1>{{ mensagem }}</h1>
+
+                <a href="">Entendido</a>
+            </div>
+        {% endif %}
+
+
+        {% for l in livros %}
+        <div>
+            <h3> ISBN:
+                <span class="informacao"> {{ l["isbn"] }} </span>
+            </h3>
+
+            <h3> Titulo:
+                <span class="informacao"> {{ l["titulo"] }} </span>
+            </h3>
+
+            <h3> Autor:
+                <span class="informacao"> {{ l["autor"] }} </span>
+            </h3>
+
+            <h3> Genero:
+                <span class="informacao"> {{ l["genero"] }} </span>
+            </h3>
+
+            <h3> Ano de publicação:
+                <span class="informacao"> {{ l["ano_publicacao"] }} </span>
+            </h3>
+
+            <h3> Editora:
+                <span class="informacao"> {{ l["editora"] }} </span>
+            </h3>
+
+            <h3> Paginas:
+                <span class="informacao"> {{ l["paginas"] }} </span>
+            </h3>
+
+            <h3> Status:
+                <span class="informacao"> {{ l["status"] }} </span>
+            </h3>
+
+            <h3> Localização:
+                <span class="informacao"> {{ l["localizacao"] }} </span>
+            </h3>
+        </div>
+        {% endfor %}
+
+    </main>
+{% endblock %}

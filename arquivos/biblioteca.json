@@ -10,7 +10,6 @@
         "status": "disponivel",
         "localizacao": "Estante A1, Prateleira 2"
     },
-
     {
         "isbn": "978-8535914852",
         "titulo": "1942",
@@ -22,7 +21,6 @@
         "status": "disponivel",
         "localizacao": "Estante A1, Prateleira 2"
     },
-
     {
         "isbn": "978-8535914852",
         "titulo": "1942",
@@ -33,5 +31,71 @@
         "paginas": 251,
         "status": "disponivel",
         "localizacao": "Estante A1, Prateleira 2"
+    },
+    {
+        "isbn": "1231",
+        "titulo": "isadkaj",
+        "autor": "dakdjakjd",
+        "genero": "dkajdkajd",
+        "ano_publicacao": "12412",
+        "editora": "dkajdkajdk",
+        "paginas": "1241",
+        "status": "akdjakjd",
+        "localizacao": "dakjdka"
+    },
+    {
+        "isbn": "123151",
+        "titulo": "isadkaj",
+        "autor": "dakdjakjd",
+        "genero": "dkajdkajd",
+        "ano_publicacao": "12412",
+        "editora": "dkajdkajdk",
+        "paginas": "1241",
+        "status": "akdjakjd",
+        "localizacao": "dakjdka"
+    },
+    {
+        "isbn": "",
+        "titulo": "",
+        "autor": "",
+        "genero": "",
+        "ano_publicacao": "",
+        "editora": "",
+        "paginas": "",
+        "status": "",
+        "localizacao": ""
+    },
+    {
+        "isbn": "12321",
+        "titulo": "412321",
+        "autor": "3124124",
+        "genero": "12412421",
+        "ano_publicacao": "412421",
+        "editora": "421412",
+        "paginas": "4214214",
+        "status": "214214",
+        "localizacao": "12414"
+    },
+    {
+        "isbn": "1232125",
+        "titulo": "412321",
+        "autor": "3124124",
+        "genero": "12412421",
+        "ano_publicacao": "412421",
+        "editora": "421412",
+        "paginas": "4214214",
+        "status": "214214",
+        "localizacao": "12414"
+    },
+    {
+        "isbn": "12321251",
+        "titulo": "412321",
+        "autor": "3124124",
+        "genero": "12412421",
+        "ano_publicacao": "412421",
+        "editora": "421412",
+        "paginas": "4214214",
+        "status": "214214",
+        "localizacao": "12414"
     }
 ]

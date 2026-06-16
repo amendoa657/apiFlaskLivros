@@ -7,15 +7,36 @@ main {
 form {
     width: 500px;
     background-color: cadetblue;
-    height: 25vh;
+    height: 70vh;
+    margin-top: 50px;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     flex-direction: column;
     align-items: center;
+    padding: 25px;
+    border-radius: 15px;
 }
 
 form input {
-    height: 3vh;
-    width: 70%;
-    margin-bottom: 5px;
+    height: 5vh;
+    width: 100%;
+    margin-bottom: 10px;
 }
+
+.inputEnviar {
+    margin-top: 10px;
+    background-color: #BA673F;
+    border: 3px solid #346c72;
+    border-radius: 10px;
+    width: 70%;
+}
+
+
+
+.retornoSucesso {
+    display: none;
+    position: absolute;
+
+}
+
+
